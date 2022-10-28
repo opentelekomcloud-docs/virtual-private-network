@@ -93,7 +93,7 @@ html_static_path = ['_static']
 
 # -- Options for PDF output --------------------------------------------------
 latex_documents = [
-('index',
+    ('index',
      'vpn-umn.tex',
      u'Virtual Private Network - User Guide',
      u'OpenTelekomCloud', 'manual'),
