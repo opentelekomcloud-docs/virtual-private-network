@@ -8,6 +8,6 @@ Virtual Private Network - User Guide
    overview/index
    getting_started/index
    management/index
-   vpn_best_practice/index
+   administrator_guide/index
    faqs/index
-   a_change_history
+   change_history

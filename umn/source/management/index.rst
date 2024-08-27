@@ -1,20 +1,26 @@
-:original_name: en-us_topic_0035391378.html
+:original_name: vpn_04_0000.html
 
-.. _en-us_topic_0035391378:
+.. _vpn_04_0000:
 
 Management
 ==========
 
--  :ref:`Viewing a VPN <en-us_topic_0035506845>`
--  :ref:`Modifying a VPN <en-us_topic_0035391295>`
--  :ref:`Deleting a VPN <en-us_topic_0035616925>`
--  :ref:`Managing VPN Tags <en-us_topic_0107396413>`
+-  :ref:`Enterprise Edition VPN <vpn_08_1509>`
+-  :ref:`Classic VPN <vpn_08_1511>`
+-  :ref:`Monitoring <vpn_04_0700>`
+-  :ref:`Audit <vpn_ug_00016>`
+-  :ref:`Permissions Management <vpn_04_1200>`
+-  :ref:`Tag Management <vpn_08_1513>`
+-  :ref:`Quotas <vpn_04_0411>`
 
 .. toctree::
    :maxdepth: 1
    :hidden: 
 
-   viewing_a_vpn
-   modifying_a_vpn
-   deleting_a_vpn
-   managing_vpn_tags
+   enterprise_edition_vpn/index
+   classic_vpn/index
+   monitoring/index
+   audit/index
+   permissions_management/index
+   tag_management/index
+   quotas

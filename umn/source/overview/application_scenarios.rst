@@ -1,38 +1,54 @@
-:original_name: en-us_topic_0035391412.html
+:original_name: vpn_01_0032.html
 
-.. _en-us_topic_0035391412:
+.. _vpn_01_0032:
 
 Application Scenarios
 =====================
 
-With the VPN between the VPC and your traditional data center, you can easily use the ECSs and block storage resources provided by the cloud platform. Applications can be migrated to the cloud and additional web servers can be deployed to increase the computing capacity on a network. In this way, a hybrid cloud is built, which reduces IT O&M costs and protects enterprise core data from being leaked.
+Hybrid Cloud Deployment
+-----------------------
 
-The VPN service allows you to set up site-to-site VPN connections or VPN connections from one site to multiple sites.
+You can use a VPN to connect your on-premises data center to a VPC and use the elastic and fast scaling capabilities of the cloud to expand application computing capabilities. :ref:`Figure 1 <en-us_topic_0000001965006185__en-us_topic_0000001542174386_fig985610511108>` shows the hybrid cloud deployment.
 
-Site-to-site VPN connection
----------------------------
+.. _en-us_topic_0000001965006185__en-us_topic_0000001542174386_fig985610511108:
 
-You can set up a VPN to connect a local data center to a VPC, thus building a hybrid cloud. :ref:`Figure 1 <en-us_topic_0035391412__fig234964913366>` shows a site-to-site VPN connection.
+.. figure:: /_static/images/en-us_image_0000001972699077.png
+   :alt: **Figure 1** Hybrid cloud deployment
 
-.. _en-us_topic_0035391412__fig234964913366:
+   **Figure 1** Hybrid cloud deployment
 
-.. figure:: /_static/images/en-us_image_0154037992.png
-   :alt: **Figure 1** Site-to-site VPN connection
+Cross-Region Interconnection Between VPCs
+-----------------------------------------
 
-   **Figure 1** Site-to-site VPN connection
+With VPNs, you can connect VPCs in different regions to enable connectivity between user services in these regions, as shown in :ref:`Figure 2 <en-us_topic_0000001965006185__en-us_topic_0000001542174386_fig153958299125>`.
 
-VPN connection from one site to multiple sites
-----------------------------------------------
+.. _en-us_topic_0000001965006185__en-us_topic_0000001542174386_fig153958299125:
 
-You can also set up a VPN to connect multiple local data centers to a VPC, thus building a hybrid cloud. :ref:`Figure 2 <en-us_topic_0035391412__fig8311841131918>` shows a VPN connection from one site to multiple sites.
+.. figure:: /_static/images/en-us_image_0000001592694309.png
+   :alt: **Figure 2** Cross-region interconnection between VPCs
 
-.. note::
+   **Figure 2** Cross-region interconnection between VPCs
 
-   The subnet CIDR blocks of each site involved in the VPN connection cannot overlap.
+Enterprise Branch Interconnection
+---------------------------------
 
-.. _en-us_topic_0035391412__fig8311841131918:
+A VPN gateway functions as a VPN hub to connect enterprise branches, as shown in :ref:`Figure 3 <en-us_topic_0000001965006185__en-us_topic_0000001542174386_fig1582435310131>`. This eliminates the need to configure VPN connections between every two branches.
 
-.. figure:: /_static/images/en-us_image_0159206951.png
-   :alt: **Figure 2** VPN connection from one site to multiple sites
+.. _en-us_topic_0000001965006185__en-us_topic_0000001542174386_fig1582435310131:
 
-   **Figure 2** VPN connection from one site to multiple sites
+.. figure:: /_static/images/en-us_image_0000001972697961.png
+   :alt: **Figure 3** Enterprise branch interconnection
+
+   **Figure 3** Enterprise branch interconnection
+
+Backup Between VPN and Direct Connect
+-------------------------------------
+
+For high reliability purposes, you can connect your on-premises data center to a VPC on the cloud through Direct Connect and VPN that back up each other, as shown in :ref:`Figure 4 <en-us_topic_0000001965006185__en-us_topic_0000001542174386_fig26851202306>`.
+
+.. _en-us_topic_0000001965006185__en-us_topic_0000001542174386_fig26851202306:
+
+.. figure:: /_static/images/en-us_image_0000001972602221.png
+   :alt: **Figure 4** Backup between VPN and Direct Connect
+
+   **Figure 4** Backup between VPN and Direct Connect
