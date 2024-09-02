@@ -5,12 +5,6 @@
 Product Specifications
 ======================
 
-.. note::
-
-   -  The specification of a VPN gateway can be changed between Basic and Professional 1.
-   -  The specification of a VPN gateway can be changed between Professional 1 and Professional 2.
-   -  The preceding specification changes are subject to the console.
-
 .. _en-us_topic_0000001699872529__table83170407352:
 
 .. table:: **Table 1** VPN specifications
