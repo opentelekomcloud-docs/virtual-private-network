@@ -110,7 +110,7 @@ html_copy_source = False
 latex_documents = [
     ('index',
      'vpn-api-ref.tex',
-     u'Virtual Private Network - API Reference',
+    u'Virtual Private Network - API Reference',
      u'OpenTelekomCloud', 'manual'),
 ]
 
