@@ -110,7 +110,7 @@ html_copy_source = False
 latex_documents = [
     ('index',
      'vpn-umn.tex',
-     u'Virtual Private Network - User Guide',
+    u'Virtual Private Network - User Guide',
      u'OpenTelekomCloud', 'manual'),
 ]
 
