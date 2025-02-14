@@ -6,8 +6,8 @@
       - helpcenter-base-jobs
     vars:
       sphinx_pdf_files:
-        - vpn-api-ref.pdf
         - vpn-umn.pdf
+        - vpn-api-ref.pdf
     check:
       jobs:
         - noop
