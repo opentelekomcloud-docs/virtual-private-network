@@ -8,6 +8,7 @@ A virtual private network (VPN) establishes an encrypted communication tunnel be
    :class: container-sbv
 
    .. service_card::
+      :environment: internal
       :service_type: vpn
       :umn: This document describes Virtual Private Network service, helping you quickly create and properly use the service.
       :api-ref: This document describes application programming interfaces (APIs) of Virtual Private Network and provides API parameter description and example values.
