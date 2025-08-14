@@ -5,12 +5,12 @@
 Getting Started
 ===============
 
--  :ref:`Enterprise Edition VPN <vpn_08_1505>`
--  :ref:`Classic VPN <vpn_08_1507>`
+-  :ref:`S2C Enterprise Edition VPN <vpn_qs_00001>`
+-  :ref:`S2C Classic VPN <vpn_03_0100>`
 
 .. toctree::
    :maxdepth: 1
    :hidden: 
 
-   enterprise_edition_vpn/index
-   classic_vpn/index
+   s2c_enterprise_edition_vpn/index
+   s2c_classic_vpn/index

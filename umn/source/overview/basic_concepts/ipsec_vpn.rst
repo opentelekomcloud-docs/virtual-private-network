@@ -5,11 +5,11 @@
 IPsec VPN
 =========
 
-Internet Protocol Security (IPsec) VPN uses a secure network protocol suite that authenticates and encrypts the packets of data to provide secure encrypted communication between different networks.
+Internet Protocol Security (IPsec) VPN uses a secure network protocol suite that authenticates and encrypts the packets of data to provide secure encrypted communication between different networks. S2C VPN is an IPsec VPN technology on the cloud.
 
-In the example shown in :ref:`Figure 1 <en-us_topic_0000001937647862__en-us_topic_0000001592693925_fig1673177194510>`, assume that you have created a VPC with two subnets (192.168.1.0/24 and 192.168.2.0/24) on the cloud, and the router in your on-premises data center also has two subnets (192.168.3.0/24 and 192.168.4.0/24). In this case, you can create a VPN to connect the VPC subnets and the data center subnets.
+In the example shown in :ref:`Figure 1 <en-us_topic_0000001592693925__fig1673177194510>`, assume that you have created a VPC with two subnets (192.168.1.0/24 and 192.168.2.0/24) on the cloud, and the router in your on-premises data center also has two subnets (192.168.3.0/24 and 192.168.4.0/24). In this case, you can create a VPN to connect the VPC subnets and the data center subnets.
 
-.. _en-us_topic_0000001937647862__en-us_topic_0000001592693925_fig1673177194510:
+.. _en-us_topic_0000001592693925__fig1673177194510:
 
 .. figure:: /_static/images/en-us_image_0000001960951864.png
    :alt: **Figure 1** IPsec VPN

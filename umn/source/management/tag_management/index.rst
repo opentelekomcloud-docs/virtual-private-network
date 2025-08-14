@@ -1,13 +1,13 @@
-:original_name: vpn_08_1513.html
+:original_name: vpn_10_106.html
 
-.. _vpn_08_1513:
+.. _vpn_10_106:
 
 Tag Management
 ==============
 
--  :ref:`Scenario <vpn_08_1514>`
--  :ref:`Searching for Resources by Tag <vpn_08_1515>`
--  :ref:`Managing Tags <vpn_08_1516>`
+-  :ref:`Scenario <vpn_10_107>`
+-  :ref:`Searching for Resources by Tag <vpn_10_108>`
+-  :ref:`Managing Tags <vpn_10_109>`
 
 .. toctree::
    :maxdepth: 1

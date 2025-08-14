@@ -6,7 +6,7 @@ Basic Concepts
 ==============
 
 -  :ref:`IPsec VPN <vpn_01_0035>`
--  :ref:`SSL VPN <vpn_08_1504>`
+-  :ref:`SSL VPN <vpn_01_0061>`
 -  :ref:`VPN Gateway <vpn_01_0012>`
 -  :ref:`VPN Connection <vpn_01_0013>`
 -  :ref:`VPN Gateway Bandwidth <vpn_01_0014>`
