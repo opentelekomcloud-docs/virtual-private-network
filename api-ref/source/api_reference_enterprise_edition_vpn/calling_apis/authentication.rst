@@ -53,13 +53,15 @@ A project-level token is required for calling APIs of the VPN service. As such, 
        }
    }
 
-After obtaining a token, add the **X-Auth-Token** field specifying the token to the request header when calling other APIs. For example, when the token is **ABCDEFJ...**, add **X-Auth-Token: ABCDEFJ...** to the request header as follows:
+After obtaining a token, add the **X-Auth-Token** field specifying the token to the request header when calling other APIs. For example, when the token is **ABCDEFG....**, add **X-Auth-Token: ABCDEFG....** to the request header as follows:
 
 .. code-block:: text
 
    POST https://iam.eu-de.otc.t-systems.com/v3/auth/tokens
+
+
    Content-Type: application/json
-   X-Auth-Token: ABCDEFJ....
+   X-Auth-Token: ABCDEFG....
 
 **AK/SK Authentication**
 

@@ -11,7 +11,6 @@ API Reference - Classic VPN
 -  :ref:`API <vpn_api_1012>`
 -  :ref:`Native OpenStack APIs <vpn_api_1022>`
 -  :ref:`Common Parameters <vpn_api_1053>`
--  :ref:`Permissions and Supported Actions <classic_vpn_0055>`
 
 .. toctree::
    :maxdepth: 1
@@ -23,4 +22,3 @@ API Reference - Classic VPN
    api/index
    native_openstack_apis/index
    common_parameters/index
-   permissions_and_supported_actions/index
