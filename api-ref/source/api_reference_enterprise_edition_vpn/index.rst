@@ -5,10 +5,10 @@
 API Reference - Enterprise Edition VPN
 ======================================
 
--  :ref:`Before You Start <vpn_api_0001>`
+-  :ref:`Before You Start <vpn_api_0006>`
 -  :ref:`API Overview <vpn_api_0007>`
 -  :ref:`Calling APIs <vpn_api_0008>`
--  :ref:`APIs of Enterprise Edition VPN <vpn_api_0012>`
+-  :ref:`API <vpn_api_0012>`
 -  :ref:`Application Examples <vpn_api_0039>`
 -  :ref:`Permissions and Supported Actions <vpn_api_0044>`
 -  :ref:`Appendixes <vpn_api_0050>`
@@ -17,10 +17,10 @@ API Reference - Enterprise Edition VPN
    :maxdepth: 1
    :hidden: 
 
-   before_you_start/index
+   before_you_start
    api_overview
    calling_apis/index
-   apis_of_enterprise_edition_vpn/index
+   api/index
    application_examples/index
    permissions_and_supported_actions/index
    appendixes/index

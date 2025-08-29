@@ -15,20 +15,22 @@ Prerequisites
 
 You have obtained a user token if you need to use token authentication. In addition, you need to add **X-Auth-Token** to the request header when calling an API. For details about token authentication, see "Authentication" in the *Virtual Private Cloud API Reference*.
 
+.. note::
+
+   The token obtained through IAM is valid for only 24 hours. When using a token for authentication, cache it to avoid frequent calling.
+
 Data Preparation
 ----------------
 
 .. table:: **Table 1** Key parameters in the request for creating a customer gateway
 
-   +------------+---------------------------------------------------+----------------------------+
-   | Parameter  | Description                                       | Example Value              |
-   +============+===================================================+============================+
-   | name       | Specifies a customer gateway name.                | stub-customer-gateway-id-1 |
-   +------------+---------------------------------------------------+----------------------------+
-   | route_mode | Specifies the gateway routing mode.               | static                     |
-   +------------+---------------------------------------------------+----------------------------+
-   | ip         | Specifies the IP address of the customer gateway. | 10.12.13.21                |
-   +------------+---------------------------------------------------+----------------------------+
+   +-----------+-------------------------------------------------+----------------------------+
+   | Parameter | Description                                     | Example Value              |
+   +===========+=================================================+============================+
+   | name      | Specifies a customer gateway name.              | stub-customer-gateway-id-1 |
+   +-----------+-------------------------------------------------+----------------------------+
+   | id_value  | Specifies the identifier of a customer gateway. | 10.12.13.21                |
+   +-----------+-------------------------------------------------+----------------------------+
 
 Procedure
 ---------
@@ -63,8 +65,8 @@ Procedure
                     "name": "cgw-3ebf",
                     "id_type": "ip",
                     "id_value": "10.***.***.21",
-                    "created_at": "2024-06-25T13:19:37.335+02:00",
-                    "updated_at": "2024-06-25T13:19:37.335+02:00"
+                    "created_at": "2025-07-17T16:49:28.108+08:00",
+                    "updated_at": "2025-07-17T16:49:28.108+08:00"
                 },
                 "request_id": "e55783ba-5cc8-40c1-ad81-12cce6f773d2"
             }
@@ -85,8 +87,8 @@ Procedure
                     "name": "cgw-3ebf",
                     "id_type": "ip",
                     "id_value": "10.***.***.21",
-                    "created_at": "2024-06-25T13:19:37.335Z",
-                    "updated_at": "2024-06-25T13:19:37.335Z"
+                    "created_at": "2025-07-17T16:49:28.108+08:00",
+                    "updated_at": "2025-07-17T16:49:28.108+08:00"
                 },
                 "request_id": "8cf476c4-c3d4-4516-bfbc-01e2473e549b"
             }

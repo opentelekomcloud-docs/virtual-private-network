@@ -17,6 +17,10 @@ Prerequisites
 
 -  You have obtained a user token if you need to use token authentication. In addition, you need to add **X-Auth-Token** to the request header when calling an API. For details about token authentication, see "Authentication" in the *Virtual Private Cloud API Reference*.
 
+   .. note::
+
+      The token obtained through IAM is valid for only 24 hours. When using a token for authentication, cache it to avoid frequent calling.
+
 Data Preparation
 ----------------
 
