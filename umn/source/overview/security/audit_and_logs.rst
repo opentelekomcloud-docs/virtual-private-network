@@ -12,3 +12,7 @@ VPN records the create, delete, and modify operations performed on all resources
    :alt: **Figure 1** Audit and logs
 
    **Figure 1** Audit and logs
+
+**Reference link:**
+
+For details about how to view audit logs, see the *Cloud Trace Service User Guide*.

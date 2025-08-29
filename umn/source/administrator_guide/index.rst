@@ -1,6 +1,6 @@
-:original_name: vpn_09_0000.html
+:original_name: vpn_09_000000.html
 
-.. _vpn_09_0000:
+.. _vpn_09_000000:
 
 Administrator Guide
 ===================

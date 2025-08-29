@@ -8,6 +8,7 @@ Virtual Private Network - User Guide
    overview/index
    getting_started/index
    management/index
+   troubleshooting/index
    administrator_guide/index
    faqs/index
    change_history
