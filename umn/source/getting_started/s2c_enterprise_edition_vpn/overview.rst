@@ -38,7 +38,6 @@ Limitations and Constraints
 -  The customer gateway device must support standard IKE and IPsec protocols.
 -  The interconnection subnets of the on-premises data center cannot overlap with those of the VPC and cannot contain reserved CIDR blocks such as 100.64.0.0/10, 100.64.0.0/12, and 214.0.0.0/8. The reserved CIDR blocks vary according to regions and are subject to those displayed on the console.
 
-   -  If you need to use 100.64.0.0/10 or 100.64.0.0/12, submit a service ticket.
    -  If the VPC uses Direct Cloud or Cloud Connect connections to communicate with other VPCs, the on-premises data center subnets cannot overlap with those of these VPCs.
 
 Data Plan
