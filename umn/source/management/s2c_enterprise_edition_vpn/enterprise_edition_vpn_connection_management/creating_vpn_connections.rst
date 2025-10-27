@@ -14,6 +14,7 @@ Notes and Constraints
 ---------------------
 
 -  When creating a VPN connection in static routing mode, ensure that the customer gateway supports ICMP and is correctly configured with the customer interface IP address of the VPN connection before enabling NQA. Otherwise, traffic will fail to be forwarded.
+-  Currently, VPN connections do not support multiple algorithms during IKE/IPsec negotiation. If multiple algorithms are configured, the gateway may be abnormal. You are advised to use a single algorithm.
 
 Procedure
 ---------
