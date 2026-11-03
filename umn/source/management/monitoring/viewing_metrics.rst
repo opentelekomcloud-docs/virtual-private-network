@@ -8,24 +8,38 @@ Viewing Metrics
 Scenarios
 ---------
 
-View the VPN connection status and usages of bandwidth and EIP. You can view data of the last 1, 3, 12, or 24 hours, or last 7 days.
+View the VPN connection status and usages of bandwidth and EIP. You can view data of the last 15 minutes, last 30 minutes, last 1 hour, last 2 hours, last 3 hours, last 12 hours, last 24 hours, last 7 days, last 30 days, or a custom time range.
 
 Viewing VPN Gateway Metrics
 ---------------------------
 
--  Viewing metrics on the Cloud Eye console
+-  Viewing metrics on the VPN console
 
    #. Log in to the management console.
 
    #. Click |image1| in the upper left corner and select the desired region and project.
 
-   #. Click **Service List** and choose **Management & Deployment** > **Cloud Eye**.
+   #. Click |image2| in the upper left corner, and choose **Network** > **Virtual Private Network**.
+
+   #. In the navigation pane on the left, choose **Virtual Private Network** > **Enterprise - VPN Gateways**.
+
+   #. Locate the target VPN connection, and click |image3| in the **Gateway IP Address** column.
+
+      You can view data of the last 15 minutes, last 30 minutes, last 1 hour, last 2 hours, last 3 hours, last 12 hours, last 24 hours, last 7 days, last 30 days, or a custom time range.
+
+-  Viewing metrics on the Cloud Eye console
+
+   #. Log in to the management console.
+
+   #. Click |image4| in the upper left corner and select the desired region and project.
+
+   #. In the upper left corner of the page, click |image5| and choose **Management & Deployment** > **Cloud Eye**.
 
    #. Choose **Cloud Service Monitoring** > **Virtual Private Network**.
 
-   #. On the **Enterprise - VPN Gateways** page, locate the target VPN gateway, and click **View Metric** in the **Operation** column.
+   #. On the **S2C VPN Gateway** tab page, click **View Metric** in the **Operation** column of the target VPN gateway to view its status.
 
-      You can view data of the last 1, 3, 12, or 24 hours, or last 7 days.
+      You can view data of the last 15 minutes, last 30 minutes, last 1 hour, last 2 hours, last 3 hours, last 12 hours, last 24 hours, last 7 days, last 30 days, or a custom time range.
 
 Viewing VPN Connection Metrics
 ------------------------------
@@ -33,11 +47,13 @@ Viewing VPN Connection Metrics
 -  Viewing metrics on the VPN console
 
    #. Log in to the management console.
-   #. Click |image2| in the upper left corner and select the desired region and project.
-   #. Click |image3| in the upper left corner of the management console, and choose **Networking** > **Virtual Private Network**.
+   #. Click |image6| in the upper left corner and select the desired region and project.
+   #. Click |image7| in the upper left corner, and choose **Network** > **Virtual Private Network**.
    #. View metrics.
 
-      -  Choose **Virtual Private Network** > **Enterprise - VPN Connections**, and click |image4| **View Metric** under the name of a VPN connection.
+      -  S2C Enterprise Edition VPN: Choose **Virtual Private Network** > **Enterprise - VPN Connections**, and click |image8| in the **Monitoring** column of a VPN connection.
+
+         You can view data of the last 15 minutes, last 30 minutes, last 1 hour, last 2 hours, last 3 hours, last 12 hours, last 24 hours, last 7 days, last 30 days, or a custom time range.
 
          The metrics include the following:
 
@@ -54,19 +70,22 @@ Viewing VPN Connection Metrics
 -  Viewing metrics on the Cloud Eye console
 
    #. Log in to the management console.
-   #. Click |image5| in the upper left corner and select the desired region and project.
-   #. Click **Service List** and choose **Management & Deployment** > **Cloud Eye**.
+   #. Click |image9| in the upper left corner and select the desired region and project.
+   #. In the upper left corner of the page, click |image10| and choose **Management & Deployment** > **Cloud Eye**.
    #. Choose **Cloud Service Monitoring** > **Virtual Private Network**.
    #. View metrics. The operations vary according to the VPN type.
 
-      -  Enterprise Edition VPN: On the **Enterprise - VPN Gateways** page, locate the target VPN connection, and click **View Metric** in the **Operation** column to view the VPN connection status.
+      -  On the **S2C VPN Connection** tab page, click **View Metric** in the **Operation** column of the target VPN connection to view its status.
 
-      -  Classic VPN: Click the **VPN Connections** tab, locate the target VPN connection, and click **View Metric** in the **Operation** column to view the VPN connection status.
+         You can view data of the last 15 minutes, last 30 minutes, last 1 hour, last 2 hours, last 3 hours, last 12 hours, last 24 hours, last 7 days, last 30 days, or a custom time range.
 
-         You can view data of the last 1, 3, 12, or 24 hours, or last 7 days.
-
-.. |image1| image:: /_static/images/en-us_image_0000001592773953.png
-.. |image2| image:: /_static/images/en-us_image_0000001542494126.png
-.. |image3| image:: /_static/images/en-us_image_0000001924344277.png
-.. |image4| image:: /_static/images/en-us_image_0000001878346114.png
-.. |image5| image:: /_static/images/en-us_image_0000001542174442.png
+.. |image1| image:: /_static/images/en-us_image_0000001628070572.png
+.. |image2| image:: /_static/images/en-us_image_0000002394353329.png
+.. |image3| image:: /_static/images/en-us_image_0000002088746373.png
+.. |image4| image:: /_static/images/en-us_image_0000001628070572.png
+.. |image5| image:: /_static/images/en-us_image_0000002381773998.png
+.. |image6| image:: /_static/images/en-us_image_0000001628070572.png
+.. |image7| image:: /_static/images/en-us_image_0000002394353329.png
+.. |image8| image:: /_static/images/en-us_image_0000002361571346.png
+.. |image9| image:: /_static/images/en-us_image_0000001628070572.png
+.. |image10| image:: /_static/images/en-us_image_0000002381774546.png

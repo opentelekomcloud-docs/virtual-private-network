@@ -19,6 +19,8 @@ Example VPN custom policy
 
 -  Example 1: Grant permission to delete VPN gateways.
 
+   You need to add the following dependent actions. If they are not added, an exception may occur.
+
    .. code-block::
 
       {
@@ -28,6 +30,31 @@ Example VPN custom policy
                   "Effect": "Allow",
                   "Action": [
                       "vpn:vpnGateways:delete"
+                  ]
+              },
+              {
+                  "Effect": "Allow",
+                  "Action": [
+                      "vpc:subNetworkInterfaces:update",
+                      "vpc:routeTables:update",
+                      "vpc:subnets:delete",
+                      "vpc:publicIps:list",
+                      "vpc:publicIps:delete",
+                      "vpc:vpcs:get",
+                      "vpc:routeTables:get",
+                      "vpc:ports:get",
+                      "vpc:publicIps:update",
+                      "vpc:subnets:get",
+                      "vpc:bandwidths:list",
+                      "vpc:publicIps:get",
+                      "vpc:vpcs:list"
+                  ]
+              },
+              {
+                  "Effect": "Allow",
+                  "Action": [
+                      "er:instances:get",
+                      "er:instances:list"
                   ]
               }
           ]
@@ -47,7 +74,7 @@ Example VPN custom policy
               {
                   "Effect": "Deny",
                   "Action": [
-                      "vpn:vpnGateways:delete"
+                      "vpn:vpnConnections:delete"
                   ]
               }
           ]

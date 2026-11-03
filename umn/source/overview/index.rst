@@ -5,15 +5,15 @@
 Overview
 ========
 
--  :ref:`What Is VPN? <en-us_topic_0035391393>`
+-  :ref:`What Is VPN? <vpn_01_0031>`
 -  :ref:`Product Advantages <vpn_01_0002>`
 -  :ref:`Application Scenarios <vpn_01_0032>`
 -  :ref:`Product Specifications <vpn_01_0036>`
 -  :ref:`Quotas and Limitations <vpn_01_0005>`
 -  :ref:`Reference Standards and Protocols <vpn_01_0006>`
 -  :ref:`Differences between Enterprise Edition VPN and Classic VPN <vpn_01_0033>`
--  :ref:`Security <vpn_08_1503>`
--  :ref:`Permissions Management <vpn_01_0011>`
+-  :ref:`Security <vpn_01_0024>`
+-  :ref:`IAM-based Permissions Management <vpn_01_0011>`
 -  :ref:`Basic Concepts <vpn_01_0034>`
 
 .. toctree::
@@ -28,5 +28,5 @@ Overview
    reference_standards_and_protocols
    differences_between_enterprise_edition_vpn_and_classic_vpn
    security/index
-   permissions_management
+   iam-based_permissions_management
    basic_concepts/index

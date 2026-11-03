@@ -5,7 +5,7 @@
 Request
 =======
 
-This section describes the structure of a REST API request, and uses the IAM API for obtaining a user token as an example to demonstrate how to call an API. The obtained token can then be used to authenticate the calling of other APIs.
+This section describes the structure of a REST API request, and uses the IAM API for creating an IAM user as an administrator as an example to demonstrate how to call an API. The user token obtained by this API can then be used to authenticate the calling of other APIs.
 
 **Request URI**
 
@@ -59,17 +59,18 @@ The HTTP protocol defines the following request methods for sending requests to 
 
 For example, in the URI used to obtain a user token, the request method is POST. The request is as follows:
 
-.. code-block:: text
+.. code-block::
 
+   POST https://iam.eu-de.docs.otc.t-systems.com/v3.0/OS-USER/users
    POST https://iam.eu-de.otc.t-systems.com/v3/auth/tokens
 
 **Request Header**
 
 You can add additional fields, such as the fields required by a specified URI or HTTP method, to a request header. For example, to request authentication information, you can add **Content-Type** to specify the type of the request body.
 
-For details about common request headers, see :ref:`Table 3 <en-us_topic_0000001807370452__en-us_topic_0000001594352973_table1510219261292>`.
+For details about common request headers, see :ref:`Table 3 <en-us_topic_0000002441716421__en-us_topic_0000002430499185_table1510219261292>`.
 
-.. _en-us_topic_0000001807370452__en-us_topic_0000001594352973_table1510219261292:
+.. _en-us_topic_0000002441716421__en-us_topic_0000002430499185_table1510219261292:
 
 .. table:: **Table 3** Common fields in request headers
 
@@ -105,7 +106,7 @@ For details about common request headers, see :ref:`Table 3 <en-us_topic_0000001
 
 The API for obtaining a user token does not require authentication. As such, only the **Content-Type** field needs to be added to the requests for calling this API. An example of such requests is as follows:
 
-.. code-block:: text
+.. code-block::
 
    POST https://iam.eu-de.otc.t-systems.com/v3/auth/tokensContent-Type:application/json
 
@@ -115,14 +116,15 @@ This part is optional. A request body is generally sent in a structured format (
 
 Request bodies vary according to APIs. Some APIs do not require a request body, such as the APIs called using the GET and DELETE methods.
 
-For the API used to obtain a user token, you can obtain the request parameters and parameter description from the API request. The following provides an example request with a body included. Replace **username**, **domainname**, ``********`` (login password), and **xxxxxxxxxxxxxxxxxx** (project name, for example, **eu-de-01**) with the actual values.
+For the API used to obtain a user token, you can obtain the request parameters and parameter description from the API request. The following provides an example request with a body included. Replace **username**, **domainname**, **\*******\*** (login password), and **xxxxxxxxxxxxxxxxxx** (project name, for example, **eu-de-01**) with the actual values.
 
 .. note::
 
-   The **scope** field specifies where a token takes effect. In the following example, the token takes effect only for the resources in a specified project.
+   The **scope** field specifies where a token takes effect. In the following example, the token takes effect only for the resources in a specified project. You can set **scope** to an account or a project under an account. In the following example, the token takes effect only in a specified project.
 
 .. code-block:: text
 
+   POST https://iam.eu-de.otc.t-systems.com/v3/auth/tokensContent-Type:application/json
    POST https://iam.eu-de.otc.t-systems.com/v3/auth/tokensContent-Type:application/json
    {
        "auth":{

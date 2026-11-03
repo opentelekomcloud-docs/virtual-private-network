@@ -5,12 +5,12 @@
 Audit
 =====
 
--  :ref:`VPN Operations That Can Be Recorded by CTS <vpn_ug_00017>`
+-  :ref:`Key Operations That Can Be Recorded by CTS <vpn_ug_00017>`
 -  :ref:`Querying CTS Traces <vpn_ug_00018>`
 
 .. toctree::
    :maxdepth: 1
    :hidden: 
 
-   vpn_operations_that_can_be_recorded_by_cts
+   key_operations_that_can_be_recorded_by_cts
    querying_cts_traces

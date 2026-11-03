@@ -28,70 +28,48 @@ Request
 
 .. table:: **Table 1** Request parameters
 
-   +-----------------------+-----------------+-----------------+--------------------------------------------------------------------------------------------------------+
-   | Parameter             | Type            | Mandatory       | Description                                                                                            |
-   +=======================+=================+=================+========================================================================================================+
-   | subnet_id             | String          | No              | Specifies the subnet ID.                                                                               |
-   |                       |                 |                 |                                                                                                        |
-   |                       |                 |                 | The subnet here is the VPC subnet. Query the subnet and enter the correct ID.                          |
-   +-----------------------+-----------------+-----------------+--------------------------------------------------------------------------------------------------------+
-   | router_id             | String          | Yes             | Specifies the router ID.                                                                               |
-   |                       |                 |                 |                                                                                                        |
-   |                       |                 |                 | The value of **router_id** must be the VPC router ID.                                                  |
-   +-----------------------+-----------------+-----------------+--------------------------------------------------------------------------------------------------------+
-   | name                  | String          | No              | Specifies the VPN service name.                                                                        |
-   |                       |                 |                 |                                                                                                        |
-   |                       |                 |                 | The name can contain 1 to 64 characters.                                                               |
-   +-----------------------+-----------------+-----------------+--------------------------------------------------------------------------------------------------------+
-   | admin_state_up        | Boolean         | No              | Specifies the administrative status, which can be **true** or **false**.                               |
-   |                       |                 |                 |                                                                                                        |
-   |                       |                 |                 | Currently, **admin_state_up** can only be **true**.                                                    |
-   +-----------------------+-----------------+-----------------+--------------------------------------------------------------------------------------------------------+
-   | tenant_id             | String          | No              | Specifies the project ID.                                                                              |
-   |                       |                 |                 |                                                                                                        |
-   |                       |                 |                 | The ID can contain up to 255 characters.                                                               |
-   +-----------------------+-----------------+-----------------+--------------------------------------------------------------------------------------------------------+
-   | description           | String          | No              | Provides supplementary information about the VPN service.                                              |
-   |                       |                 |                 |                                                                                                        |
-   |                       |                 |                 | The description can contain up to 255 characters.                                                      |
-   +-----------------------+-----------------+-----------------+--------------------------------------------------------------------------------------------------------+
-   | order_id              | String          | No              | Specifies the ID of a yearly/monthly order.                                                            |
-   |                       |                 |                 |                                                                                                        |
-   |                       |                 |                 | The ID can contain up to 255 characters.                                                               |
-   |                       |                 |                 |                                                                                                        |
-   |                       |                 |                 | This parameter is only available to yearly/monthly VPNs.                                               |
-   +-----------------------+-----------------+-----------------+--------------------------------------------------------------------------------------------------------+
-   | product_id            | String          | No              | Specifies the ID of a product that is billed on a yearly/monthly basis.                                |
-   |                       |                 |                 |                                                                                                        |
-   |                       |                 |                 | The ID can contain up to 255 characters.                                                               |
-   |                       |                 |                 |                                                                                                        |
-   |                       |                 |                 | This parameter is only available to yearly/monthly VPNs.                                               |
-   +-----------------------+-----------------+-----------------+--------------------------------------------------------------------------------------------------------+
-   | prepay_connection_num | Integer         | No              | Specifies the number of connections of the yearly/monthly VPN service.                                 |
-   |                       |                 |                 |                                                                                                        |
-   |                       |                 |                 | This parameter is only available to yearly/monthly VPNs.                                               |
-   +-----------------------+-----------------+-----------------+--------------------------------------------------------------------------------------------------------+
-   | resource_speccode     | String          | No              | Specifies the specifications of the product that is billed on a yearly/monthly basis.                  |
-   |                       |                 |                 |                                                                                                        |
-   |                       |                 |                 | The specifications can contain up to 255 characters.                                                   |
-   |                       |                 |                 |                                                                                                        |
-   |                       |                 |                 | This parameter is only available to yearly/monthly VPNs.                                               |
-   +-----------------------+-----------------+-----------------+--------------------------------------------------------------------------------------------------------+
-   | external_v4_ip        | String          | No              | Specifies the IPv4 address of the VPN service external gateway.                                        |
-   |                       |                 |                 |                                                                                                        |
-   |                       |                 |                 | The address can contain up to 255 characters.                                                          |
-   |                       |                 |                 |                                                                                                        |
-   |                       |                 |                 | .. note::                                                                                              |
-   |                       |                 |                 |                                                                                                        |
-   |                       |                 |                 |    When you configure this parameter, ensure that the tenant meets one of the following conditions:    |
-   |                       |                 |                 |                                                                                                        |
-   |                       |                 |                 |    -  **role** is **admin**.                                                                           |
-   |                       |                 |                 |    -  **role** is **internal_admin**.                                                                  |
-   |                       |                 |                 |    -  **role** is **op_service**.                                                                      |
-   |                       |                 |                 |    -  **role** is **vpn_adm** and operations can be performed only on resources of the current tenant. |
-   +-----------------------+-----------------+-----------------+--------------------------------------------------------------------------------------------------------+
-   | vpnservice            | Object          | Yes             | Specifies the VPN service object.                                                                      |
-   +-----------------------+-----------------+-----------------+--------------------------------------------------------------------------------------------------------+
+   +-----------------+-----------------+-----------------+--------------------------------------------------------------------------------------------------------+
+   | Parameter       | Type            | Mandatory       | Description                                                                                            |
+   +=================+=================+=================+========================================================================================================+
+   | subnet_id       | String          | No              | Specifies the subnet ID.                                                                               |
+   |                 |                 |                 |                                                                                                        |
+   |                 |                 |                 | The subnet here is the VPC subnet. Query the subnet and enter the correct ID.                          |
+   +-----------------+-----------------+-----------------+--------------------------------------------------------------------------------------------------------+
+   | router_id       | String          | Yes             | Specifies the router ID.                                                                               |
+   |                 |                 |                 |                                                                                                        |
+   |                 |                 |                 | The value of **router_id** must be the VPC router ID.                                                  |
+   +-----------------+-----------------+-----------------+--------------------------------------------------------------------------------------------------------+
+   | name            | String          | No              | Specifies the VPN service name.                                                                        |
+   |                 |                 |                 |                                                                                                        |
+   |                 |                 |                 | The name can contain 1 to 64 characters.                                                               |
+   +-----------------+-----------------+-----------------+--------------------------------------------------------------------------------------------------------+
+   | admin_state_up  | Boolean         | No              | Specifies the administrative status, which can be **true** or **false**.                               |
+   |                 |                 |                 |                                                                                                        |
+   |                 |                 |                 | Currently, **admin_state_up** can only be **true**.                                                    |
+   +-----------------+-----------------+-----------------+--------------------------------------------------------------------------------------------------------+
+   | tenant_id       | String          | No              | Specifies the project ID.                                                                              |
+   |                 |                 |                 |                                                                                                        |
+   |                 |                 |                 | The ID can contain up to 255 characters.                                                               |
+   +-----------------+-----------------+-----------------+--------------------------------------------------------------------------------------------------------+
+   | description     | String          | No              | Provides supplementary information about the VPN service.                                              |
+   |                 |                 |                 |                                                                                                        |
+   |                 |                 |                 | The description can contain up to 255 characters.                                                      |
+   +-----------------+-----------------+-----------------+--------------------------------------------------------------------------------------------------------+
+   | external_v4_ip  | String          | No              | Specifies the IPv4 address of the VPN service external gateway.                                        |
+   |                 |                 |                 |                                                                                                        |
+   |                 |                 |                 | The address can contain up to 255 characters.                                                          |
+   |                 |                 |                 |                                                                                                        |
+   |                 |                 |                 | .. note::                                                                                              |
+   |                 |                 |                 |                                                                                                        |
+   |                 |                 |                 |    When you configure this parameter, ensure that the tenant meets one of the following conditions:    |
+   |                 |                 |                 |                                                                                                        |
+   |                 |                 |                 |    -  **role** is **admin**.                                                                           |
+   |                 |                 |                 |    -  **role** is **internal_admin**.                                                                  |
+   |                 |                 |                 |    -  **role** is **op_service**.                                                                      |
+   |                 |                 |                 |    -  **role** is **vpn_adm** and operations can be performed only on resources of the current tenant. |
+   +-----------------+-----------------+-----------------+--------------------------------------------------------------------------------------------------------+
+   | vpnservice      | Object          | Yes             | Specifies the VPN service object.                                                                      |
+   +-----------------+-----------------+-----------------+--------------------------------------------------------------------------------------------------------+
 
 .. note::
 
@@ -131,14 +109,6 @@ Response
    | id                    | String                | Specifies the VPN service ID.                                                                                                                                                 |
    +-----------------------+-----------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
    | description           | String                | Provides supplementary information about the VPN service.                                                                                                                     |
-   +-----------------------+-----------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-   | order_id              | String                | Specifies the ID of a yearly/monthly order.                                                                                                                                   |
-   +-----------------------+-----------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-   | product_id            | String                | Specifies the ID of a product that is billed on a yearly/monthly basis.                                                                                                       |
-   +-----------------------+-----------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-   | prepay_connection_num | Integer               | Specifies the number of connections of the yearly/monthly VPN service.                                                                                                        |
-   +-----------------------+-----------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-   | resource_speccode     | String                | Specifies the specifications of the product that is billed on a yearly/monthly basis.                                                                                         |
    +-----------------------+-----------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
    | created_at            | String                | Specifies the time when the VPN service was created.                                                                                                                          |
    |                       |                       |                                                                                                                                                                               |

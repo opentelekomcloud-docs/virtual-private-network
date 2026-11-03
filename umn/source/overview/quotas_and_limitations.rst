@@ -19,10 +19,17 @@ VPN Gateway
    |                        |                                                                                                  | -  If you have multiple VPCs, you can create a maximum of 50 VPN gateways for all these VPCs. |
    +------------------------+--------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------+
    | Enterprise Edition VPN | VPN connection groups per VPN gateway                                                            | 100                                                                                           |
+   |                        |                                                                                                  |                                                                                               |
+   |                        |                                                                                                  | -  VPN gateway of the Basic specification: 10                                                 |
+   |                        |                                                                                                  | -  VPN gateway of other specifications: 100                                                   |
    +------------------------+--------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------+
    | Enterprise Edition VPN | Local subnets per VPN gateway                                                                    | 50                                                                                            |
    +------------------------+--------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------+
    | Enterprise Edition VPN | Number of BGP routes that a VPN gateway can receive from a customer gateway through a connection | 100                                                                                           |
+   |                        |                                                                                                  |                                                                                               |
+   |                        |                                                                                                  | -  VPN gateway of the Basic specification: 100                                                |
+   |                        |                                                                                                  | -  VPN gateway of the Professional 1 specification: 200                                       |
+   |                        |                                                                                                  | -  VPN gateway of the Professional 2 specification: 300                                       |
    +------------------------+--------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------+
 
 .. table:: **Table 2** Constraints on Classic VPN
@@ -81,11 +88,16 @@ VPN Connection
 
 -  In multi-subnet scenarios, you are advised to use VPN connections in routing mode. For a VPN connection in policy-based or policy template mode, a VPN gateway creates a communications tunnel for each pair of the local and customer subnets by default. If there are multiple local or customer subnets for a VPN connection in policy-based or policy template mode, multiple communications tunnels are created.
 
-   Each IP address of a VPN gateway supports a maximum of 100 communications tunnels for connecting to customer gateways.
+   For a VPN gateway of the Basic, Professional 1 or Professional 2 specification, a single IP address can be used to establish a maximum of 300 communications tunnels with customer gateways..
 
    -  In routing mode, each VPN connection occupies only one communications tunnel of the corresponding VPN gateway IP address.
+
    -  In policy-based or policy template mode, each VPN connection occupies *M* x *N* communications tunnels of the corresponding VPN gateway IP address. *M* indicates the number of local subnets, and *N* indicates the number of customer subnets.
 
-   If the number of communications tunnels occupied by all VPN connections in different modes established by a single gateway IP address has reached 100, excess VPN connections will fail to be created.
+      For a VPN gateway of the Basic, Professional 1 or Professional 2 specification, a maximum of 300 source and destination subnet pairs are supported for each IP address used to establish connections with customer gateways.
+
+   If the number of communications tunnels occupied by all VPN connections in different modes established by a single gateway IP address exceeds 100, excess VPN connections will fail to be created.
+
+   If the number of communications tunnels occupied by VPN connections in different modes established by a single IP address of a VPN gateway of the Professional 1 or Professional 2 specification exceeds 300, excess VPN connections will fail to be created.
 
 -  When creating a VPN connection in policy-based mode and adding multiple policy rules, ensure that the source and destination CIDR blocks in different policy rules do not overlap. Otherwise, data flows may be incorrectly matched or IPsec tunnels may flap.

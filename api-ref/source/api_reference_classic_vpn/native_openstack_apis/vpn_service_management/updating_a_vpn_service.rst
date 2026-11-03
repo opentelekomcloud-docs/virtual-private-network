@@ -32,45 +32,23 @@ Request
 
 .. table:: **Table 2** Request parameters
 
-   +-----------------------+-----------------+-----------------+---------------------------------------------------------------------------------------+
-   | Parameter             | Type            | Mandatory       | Description                                                                           |
-   +=======================+=================+=================+=======================================================================================+
-   | description           | String          | No              | Provides supplementary information about the VPN service.                             |
-   |                       |                 |                 |                                                                                       |
-   |                       |                 |                 | The description can contain up to 255 characters.                                     |
-   +-----------------------+-----------------+-----------------+---------------------------------------------------------------------------------------+
-   | name                  | String          | No              | Specifies the VPN service name.                                                       |
-   |                       |                 |                 |                                                                                       |
-   |                       |                 |                 | The name can contain 1 to 64 characters.                                              |
-   +-----------------------+-----------------+-----------------+---------------------------------------------------------------------------------------+
-   | admin_state_up        | Boolean         | No              | Specifies the administrative status, which can be **true** or **false**.              |
-   |                       |                 |                 |                                                                                       |
-   |                       |                 |                 | Currently, **admin_state_up** can only be **true**.                                   |
-   +-----------------------+-----------------+-----------------+---------------------------------------------------------------------------------------+
-   | order_id              | String          | No              | Specifies the ID of a yearly/monthly order.                                           |
-   |                       |                 |                 |                                                                                       |
-   |                       |                 |                 | The ID can contain up to 255 characters.                                              |
-   |                       |                 |                 |                                                                                       |
-   |                       |                 |                 | This parameter is only available to yearly/monthly VPNs.                              |
-   +-----------------------+-----------------+-----------------+---------------------------------------------------------------------------------------+
-   | product_id            | String          | No              | Specifies the ID of a product that is billed on a yearly/monthly basis.               |
-   |                       |                 |                 |                                                                                       |
-   |                       |                 |                 | The ID can contain up to 255 characters.                                              |
-   |                       |                 |                 |                                                                                       |
-   |                       |                 |                 | This parameter is only available to yearly/monthly VPNs.                              |
-   +-----------------------+-----------------+-----------------+---------------------------------------------------------------------------------------+
-   | prepay_connection_num | Integer         | No              | Specifies the number of connections of the yearly/monthly VPN service.                |
-   |                       |                 |                 |                                                                                       |
-   |                       |                 |                 | This parameter is only available to yearly/monthly VPNs.                              |
-   +-----------------------+-----------------+-----------------+---------------------------------------------------------------------------------------+
-   | resource_speccode     | String          | No              | Specifies the specifications of the product that is billed on a yearly/monthly basis. |
-   |                       |                 |                 |                                                                                       |
-   |                       |                 |                 | The specifications can contain up to 255 characters.                                  |
-   |                       |                 |                 |                                                                                       |
-   |                       |                 |                 | This parameter is only available to yearly/monthly VPNs.                              |
-   +-----------------------+-----------------+-----------------+---------------------------------------------------------------------------------------+
-   | vpnservice            | Object          | Yes             | Specifies the VPN service object.                                                     |
-   +-----------------------+-----------------+-----------------+---------------------------------------------------------------------------------------+
+   +-----------------+-----------------+-----------------+--------------------------------------------------------------------------+
+   | Parameter       | Type            | Mandatory       | Description                                                              |
+   +=================+=================+=================+==========================================================================+
+   | description     | String          | No              | Provides supplementary information about the VPN service.                |
+   |                 |                 |                 |                                                                          |
+   |                 |                 |                 | The description can contain up to 255 characters.                        |
+   +-----------------+-----------------+-----------------+--------------------------------------------------------------------------+
+   | name            | String          | No              | Specifies the VPN service name.                                          |
+   |                 |                 |                 |                                                                          |
+   |                 |                 |                 | The name can contain 1 to 64 characters.                                 |
+   +-----------------+-----------------+-----------------+--------------------------------------------------------------------------+
+   | admin_state_up  | Boolean         | No              | Specifies the administrative status, which can be **true** or **false**. |
+   |                 |                 |                 |                                                                          |
+   |                 |                 |                 | Currently, **admin_state_up** can only be **true**.                      |
+   +-----------------+-----------------+-----------------+--------------------------------------------------------------------------+
+   | vpnservice      | Object          | Yes             | Specifies the VPN service object.                                        |
+   +-----------------+-----------------+-----------------+--------------------------------------------------------------------------+
 
 .. note::
 
@@ -107,14 +85,6 @@ Response
    | external_v4_ip        | String                | Specifies the IPv4 address of the VPN service external gateway.                                                                       |
    +-----------------------+-----------------------+---------------------------------------------------------------------------------------------------------------------------------------+
    | description           | String                | Provides supplementary information about the VPN service.                                                                             |
-   +-----------------------+-----------------------+---------------------------------------------------------------------------------------------------------------------------------------+
-   | order_id              | String                | Specifies the ID of a yearly/monthly order.                                                                                           |
-   +-----------------------+-----------------------+---------------------------------------------------------------------------------------------------------------------------------------+
-   | product_id            | String                | Specifies the ID of a product that is billed on a yearly/monthly basis.                                                               |
-   +-----------------------+-----------------------+---------------------------------------------------------------------------------------------------------------------------------------+
-   | prepay_connection_num | Integer               | Specifies the number of connections of the yearly/monthly VPN service.                                                                |
-   +-----------------------+-----------------------+---------------------------------------------------------------------------------------------------------------------------------------+
-   | resource_speccode     | String                | Specifies the specifications of the product that is billed on a yearly/monthly basis.                                                 |
    +-----------------------+-----------------------+---------------------------------------------------------------------------------------------------------------------------------------+
    | created_at            | String                | Specifies the time when the VPN service was created.                                                                                  |
    |                       |                       |                                                                                                                                       |
