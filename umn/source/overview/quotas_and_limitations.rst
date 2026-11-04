@@ -32,22 +32,12 @@ VPN Gateway
    |                        |                                                                                                  | -  VPN gateway of the Professional 2 specification: 300                                       |
    +------------------------+--------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------+
 
-.. table:: **Table 2** Constraints on Classic VPN
-
-   +-----------------------+--------------------------------+----------------------------------------+
-   | VPN Type              | Resource                       | Default Quota                          |
-   +=======================+================================+========================================+
-   | Classic VPN           | VPNs per tenant in each region | 2                                      |
-   |                       |                                |                                        |
-   |                       |                                | Only one VPN can be created for a VPC. |
-   +-----------------------+--------------------------------+----------------------------------------+
-
 -  By default, the maximum length of TCP packets supported by a VPN gateway is 1300 bytes.
 
 Customer Gateway
 ----------------
 
-.. table:: **Table 3** Constraints on customer gateways
+.. table:: **Table 2** Constraints on customer gateways
 
    +------------------------+---------------------------------------------+---------------+
    | VPN Type               | Resource                                    | Default Quota |
@@ -68,7 +58,7 @@ Customer Gateway
 VPN Connection
 --------------
 
-.. table:: **Table 4** Constraints on Enterprise Edition VPN connections
+.. table:: **Table 3** Constraints on Enterprise Edition VPN connections
 
    +------------------------+-------------------------------------+---------------+---------------------------------+
    | VPN Type               | Resource                            | Default Quota | How to Increase Quota           |
@@ -78,23 +68,15 @@ VPN Connection
    | Enterprise Edition VPN | Customer subnets per VPN connection | 50            | This quota cannot be increased. |
    +------------------------+-------------------------------------+---------------+---------------------------------+
 
-.. table:: **Table 5** Constraints on Classic VPN connections
-
-   +-------------+-------------------------------------------+---------------+---------------------------------+
-   | VPN Type    | Resource                                  | Default Quota | How to Increase Quota           |
-   +=============+===========================================+===============+=================================+
-   | Classic VPN | VPN connections per tenant in each region | 12            | This quota cannot be increased. |
-   +-------------+-------------------------------------------+---------------+---------------------------------+
-
 -  In multi-subnet scenarios, you are advised to use VPN connections in routing mode. For a VPN connection in policy-based or policy template mode, a VPN gateway creates a communications tunnel for each pair of the local and customer subnets by default. If there are multiple local or customer subnets for a VPN connection in policy-based or policy template mode, multiple communications tunnels are created.
 
-   For a VPN gateway of the Basic, Professional 1 or Professional 2 specification, a single IP address can be used to establish a maximum of 300 communications tunnels with customer gateways..
+   A single IP address can be used to establish a maximum of 300 communications tunnels with customer gateways for a VPN gateway of the Basic, Professional 2, or Professional 1 specification.
 
    -  In routing mode, each VPN connection occupies only one communications tunnel of the corresponding VPN gateway IP address.
 
    -  In policy-based or policy template mode, each VPN connection occupies *M* x *N* communications tunnels of the corresponding VPN gateway IP address. *M* indicates the number of local subnets, and *N* indicates the number of customer subnets.
 
-      For a VPN gateway of the Basic, Professional 1 or Professional 2 specification, a maximum of 300 source and destination subnet pairs are supported for each IP address used to establish connections with customer gateways.
+      A maximum of 300 source and destination subnet pairs are supported for each IP address used to establish connections with customer gateways for a VPN gateway of the Basic, Professional 2, or Professional 1 specification.
 
    If the number of communications tunnels occupied by all VPN connections in different modes established by a single gateway IP address exceeds 100, excess VPN connections will fail to be created.
 

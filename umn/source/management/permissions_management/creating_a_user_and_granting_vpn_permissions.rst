@@ -34,7 +34,7 @@ Process Flow
 
    `Create a user group and assign permissions <https://docs.otc.t-systems.com/usermanual/iam/iam_01_0030.html>`__ to it.
 
-   Create a user group on the IAM console and attach the **VPN FullAccess** policy to the group.
+   Create a user group on the IAM console, and attach the **VPN FullAccess** policy to the group.
 
 #. `Create a user and add it to the user group <https://docs.otc.t-systems.com/usermanual/iam/iam_01_0031.html>`__.
 

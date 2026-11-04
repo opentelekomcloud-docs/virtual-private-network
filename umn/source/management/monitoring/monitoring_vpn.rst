@@ -9,4 +9,4 @@ Monitoring is the key to ensuring VPN performance, reliability, and availability
 
 **Reference link:**
 
-For more monitored information, see the `Cloud Eye User Guide <https://docs.otc.t-systems.com/cloud-eye/umn/>`__.
+For more monitoring information, see the `Cloud Eye User Guide <https://docs.otc.t-systems.com/cloud-eye/umn/>`__.

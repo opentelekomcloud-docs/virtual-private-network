@@ -16,7 +16,7 @@ To meet business development requirements, enterprise A needs to implement commu
 
    .. _en-us_topic_0000001542494050__fig576114434011:
 
-   .. figure:: /_static/images/en-us_image_0000001651244201.png
+   .. figure:: /_static/images/en-us_image_0000002514583334.png
       :alt: **Figure 1** Active-active mode
 
       **Figure 1** Active-active mode
@@ -27,7 +27,7 @@ To meet business development requirements, enterprise A needs to implement commu
 
    .. _en-us_topic_0000001542494050__fig4294134917216:
 
-   .. figure:: /_static/images/en-us_image_0000001609202724.png
+   .. figure:: /_static/images/en-us_image_0000002470751282.png
       :alt: **Figure 2** Active/Standby mode
 
       **Figure 2** Active/Standby mode

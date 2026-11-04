@@ -18,7 +18,7 @@ Procedure
 #. Click |image2| in the upper left corner, and choose **Network** > **Virtual Private Network**.
 #. In the navigation pane on the left, choose **Virtual Private Network** > **Enterprise - VPN Connections**.
 #. On the **VPN Connection** page, view the VPN connection list.
-#. Click the name of a VPN connection to view its basic information, policy configuration, and tags.
+#. Click the name of a VPN connection to view its basic information, policy configuration, IPsec SA information, and tags.
 
    -  When **VPN Type** is **Static routing**, the basic information includes the VPN connection information and health check information.
    -  When **VPN Type** is **BGP routing**, the basic information includes the VPN connection information and health check information.

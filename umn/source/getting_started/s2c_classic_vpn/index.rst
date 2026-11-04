@@ -5,7 +5,7 @@
 S2C Classic VPN
 ===============
 
--  :ref:`Creating a VPN <vpn_03_0004>`
+-  :ref:`Creating a VPN <en-us_topic_0060118606>`
 
 .. toctree::
    :maxdepth: 1

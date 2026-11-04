@@ -107,4 +107,4 @@ What Are VPN Negotiation Parameters? What Are Their Default Values?
 
    -  For security purposes, PFS is enabled on the cloud side by default. Ensure that PFS is also enabled on the gateway device in your on-premises data center and the PFS settings on both ends are the same. Otherwise, the negotiation will fail.
 
-   -  The default traffic-based lifetime of an IPsec SA is 1,843,200 KB on the cloud side and cannot be changed for the VPN. This parameter is not involved in negotiation and has no impact on the establishment of an IPsec SA.
+   -  The cloud side does not support the configuration of the traffic-based IPsec SA lifetime. That is, IPsec SAs are not aged based on traffic on the cloud side.
