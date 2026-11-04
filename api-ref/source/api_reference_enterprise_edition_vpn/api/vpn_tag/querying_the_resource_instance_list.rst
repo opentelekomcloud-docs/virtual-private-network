@@ -81,7 +81,7 @@ Request
       |                 |                 |                 | -  The value is a string of 1 to 128 characters.                                                                                         |
       +-----------------+-----------------+-----------------+------------------------------------------------------------------------------------------------------------------------------------------+
       | values          | Array of String | Yes             | -  Specifies the value list of a tag. If **values** is an empty list, it indicates **any_value**. The relationship between values is OR. |
-      |                 |                 |                 | -  The value is a sting of 0 to 255 characters.                                                                                          |
+      |                 |                 |                 | -  The value is a string of 0 to 255 characters.                                                                                         |
       |                 |                 |                 | -  A maximum of 20 values can be specified.                                                                                              |
       +-----------------+-----------------+-----------------+------------------------------------------------------------------------------------------------------------------------------------------+
 
@@ -89,15 +89,15 @@ Request
 
    .. table:: **Table 5** Match
 
-      +-----------------+-----------------+-----------------+-------------------------------------------------+
-      | Parameter       | Type            | Mandatory       | Description                                     |
-      +=================+=================+=================+=================================================+
-      | key             | String          | Yes             | -  Specifies a match key.                       |
-      |                 |                 |                 | -  The value is **resource_name**.              |
-      +-----------------+-----------------+-----------------+-------------------------------------------------+
-      | value           | String          | Yes             | -  Specifies a match value.                     |
-      |                 |                 |                 | -  The value is a sting of 0 to 255 characters. |
-      +-----------------+-----------------+-----------------+-------------------------------------------------+
+      +-----------------+-----------------+-----------------+--------------------------------------------------+
+      | Parameter       | Type            | Mandatory       | Description                                      |
+      +=================+=================+=================+==================================================+
+      | key             | String          | Yes             | -  Specifies a match key.                        |
+      |                 |                 |                 | -  The value is **resource_name**.               |
+      +-----------------+-----------------+-----------------+--------------------------------------------------+
+      | value           | String          | Yes             | -  Specifies a match value.                      |
+      |                 |                 |                 | -  The value is a string of 0 to 255 characters. |
+      +-----------------+-----------------+-----------------+--------------------------------------------------+
 
 -  Example request
 
@@ -178,7 +178,7 @@ Response
       {
           "resources": [{
               "resource_id": "134f9fb1-demo-a8df-va86-2040a5c13325",
-              "resource_name": "resouece1",
+              "resource_name": "resource1",
               "tags": [{
                   "key": "key1",
                   "value": "value1"

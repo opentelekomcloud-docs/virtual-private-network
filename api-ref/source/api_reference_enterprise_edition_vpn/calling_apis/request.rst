@@ -1,6 +1,6 @@
-:original_name: vpn_api_0009.html
+:original_name: vpn_api_0160.html
 
-.. _vpn_api_0009:
+.. _vpn_api_0160:
 
 Request
 =======
@@ -68,9 +68,9 @@ For example, in the URI used to obtain a user token, the request method is POST.
 
 You can add additional fields, such as the fields required by a specified URI or HTTP method, to a request header. For example, to request authentication information, you can add **Content-Type** to specify the type of the request body.
 
-For details about common request headers, see :ref:`Table 3 <en-us_topic_0000002441716421__en-us_topic_0000002430499185_table1510219261292>`.
+For details about common request headers, see :ref:`Table 3 <en-us_topic_0000002797642209__en-us_topic_0000002455795781_table1510219261292>`.
 
-.. _en-us_topic_0000002441716421__en-us_topic_0000002430499185_table1510219261292:
+.. _en-us_topic_0000002797642209__en-us_topic_0000002455795781_table1510219261292:
 
 .. table:: **Table 3** Common fields in request headers
 

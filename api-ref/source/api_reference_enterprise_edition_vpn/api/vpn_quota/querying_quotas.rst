@@ -72,20 +72,22 @@ Response
 
    .. table:: **Table 4** QuotaInfo
 
-      +-----------------------+-----------------------+-------------------------------------------------------------+
-      | Parameter             | Type                  | Description                                                 |
-      +=======================+=======================+=============================================================+
-      | type                  | String                | -  Specifies a resource type.                               |
-      |                       |                       | -  Value range:                                             |
-      |                       |                       |                                                             |
-      |                       |                       |    -  **customer_gateway**: customer gateway                |
-      |                       |                       |    -  **vpn_connection**: Enterprise Edition VPN connection |
-      |                       |                       |    -  **vpn_gateway**: Enterprise Edition VPN gateway       |
-      +-----------------------+-----------------------+-------------------------------------------------------------+
-      | quota                 | Integer               | Specifies the quota upper limit.                            |
-      +-----------------------+-----------------------+-------------------------------------------------------------+
-      | used                  | Integer               | Specifies the number of resources in use.                   |
-      +-----------------------+-----------------------+-------------------------------------------------------------+
+      +-----------------------+-----------------------+---------------------------------------------------------------------------------------------------------+
+      | Parameter             | Type                  | Description                                                                                             |
+      +=======================+=======================+=========================================================================================================+
+      | type                  | String                | -  Specifies a resource type.                                                                           |
+      |                       |                       | -  Value range:                                                                                         |
+      |                       |                       |                                                                                                         |
+      |                       |                       |    -  **customer_gateway**: customer gateway of the S2C Enterprise Edition VPN                          |
+      |                       |                       |    -  **vpn_connection**: S2C Enterprise Edition VPN connection                                         |
+      |                       |                       |    -  **vpn_gateway**: S2C Enterprise Edition VPN gateway                                               |
+      |                       |                       |    -  **vpn_gateway_local_subnet**: local subnet of a single S2C Enterprise Edition VPN gateway         |
+      |                       |                       |    -  **vpn_connection_peer_subnet**: customer subnet of a single S2C Enterprise Edition VPN connection |
+      +-----------------------+-----------------------+---------------------------------------------------------------------------------------------------------+
+      | quota                 | Integer               | Specifies the quota upper limit.                                                                        |
+      +-----------------------+-----------------------+---------------------------------------------------------------------------------------------------------+
+      | used                  | Integer               | Specifies the number of resources in use.                                                               |
+      +-----------------------+-----------------------+---------------------------------------------------------------------------------------------------------+
 
 -  Example response
 
@@ -108,6 +110,16 @@ Response
                       "type": "vpn_gateway",
                       "quota": 50,
                       "used": 23
+                  },
+                  {
+                      "type": "vpn_gateway_local_subnet",
+                      "quota": 50,
+                      "used": 0
+                  },
+                  {
+                      "type": "vpn_connection_peer_subnet",
+                      "quota": 50,
+                      "used": 0
                   }
               ]
           },

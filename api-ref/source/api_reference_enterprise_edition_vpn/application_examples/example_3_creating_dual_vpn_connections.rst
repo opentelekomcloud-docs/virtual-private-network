@@ -128,6 +128,7 @@ Procedure
                         "enterprise_project_id": "0",
                         "ha_role": "master",
                         "tags": [],
+                        "policy_rules_v6": []
                     },
                     {
                         "id": "c7e617bd-877f-demo-8af0-44b5f8598116",
@@ -173,6 +174,7 @@ Procedure
                         "enterprise_project_id": "0",
                         "ha_role": "master",
                         "tags": [],
+                        "policy_rules_v6": []
                     }
                 ],
                 "request_id": "a923f31456941e12c5fc9a663a6e630e"
@@ -280,6 +282,7 @@ Procedure
                     "enterprise_project_id": "0",
                     "ha_role": "master",
                     "tags": [],
+                    "policy_rules_v6": [],
                     "eip_id": "e4d7930f-7038-4cbf-b78a-b004416c7485",
                     "type": "ROUTE",
                     "route_mode": "STATIC"

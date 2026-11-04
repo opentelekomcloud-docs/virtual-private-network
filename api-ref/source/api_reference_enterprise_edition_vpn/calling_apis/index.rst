@@ -7,7 +7,7 @@
 Calling APIs
 ============
 
--  :ref:`Request <vpn_api_0009>`
+-  :ref:`Request <vpn_api_0160>`
 -  :ref:`Authentication <vpn_api_0010>`
 -  :ref:`Response <vpn_api_0011>`
 
