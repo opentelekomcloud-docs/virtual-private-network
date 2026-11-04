@@ -23,8 +23,6 @@ PUT /v2.0/vpn/ipsec-site-connections/{connection_id}
    | connection_id | String | Yes       | Specifies the ID of the IPsec VPN connection. |
    +---------------+--------+-----------+-----------------------------------------------+
 
-.. _en-us_topic_0000001807530360__en-us_topic_0000001540817550_section14973148:
-
 Request
 -------
 

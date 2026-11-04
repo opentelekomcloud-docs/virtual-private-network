@@ -105,12 +105,10 @@ Response
               "professional1": {
                   "vpc": ["eu-de-01", "eu-de-02"],
                   "er": ["eu-de-01"]
-                  "er": ["az1"]
               },
               "professional2": {
                   "vpc": ["eu-de-01", "eu-de-02"],
                   "er": ["eu-de-01"]
-                  "er": ["az1"]
               },
               "Professional1-NonFixedIP": {
                   "vpc": [],

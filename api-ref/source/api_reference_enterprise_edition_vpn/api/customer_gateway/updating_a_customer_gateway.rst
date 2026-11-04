@@ -137,11 +137,11 @@ Response
           "customer_gateway": {
               "id": "03c0aa3d-demo-a8df-va86-9d82473765d4",
               "name": "cgw-f846",
-              "bgp_asn": 65533,
               "id_type": "ip",
               "id_value": "10.***.***.21",
+              "bgp_asn": 65533,
               "created_at": "2025-08-13T02:38:05.09035Z",
-              "updated_at": "2025-08-13T02:58:44.30276Z",
+              "updated_at": "2025-08-13T02:38:05.09035Z",
               "tags": []
           },
           "request_id": "96718f4a-f57a-4e1f-8d05-7d5e903c8d90"

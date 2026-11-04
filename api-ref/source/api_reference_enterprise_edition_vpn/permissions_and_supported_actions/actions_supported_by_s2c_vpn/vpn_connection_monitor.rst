@@ -10,7 +10,7 @@ VPN Connection Monitor
 +==========================================+=====================================================================+===============================+==============+=============+====================+
 | Creating a VPN connection monitor        | POST /v5/{project_id}/connection-monitors                           | vpn:connectionMonitors:create | ``-``        | Y           | Y                  |
 +------------------------------------------+---------------------------------------------------------------------+-------------------------------+--------------+-------------+--------------------+
-| Querying the VPN connection monitor list | GET /v5/{project_id}/connection-monitors                            | vpn:connectionMonitors:list   | ``-``        | Y           | x                  |
+| Querying the VPN connection monitor list | GET /v5/{project_id}/connection-monitors                            | vpn:connectionMonitors:list   | ``-``        | Y           | Y                  |
 +------------------------------------------+---------------------------------------------------------------------+-------------------------------+--------------+-------------+--------------------+
 | Deleting a VPN connection monitor        | DELETE /v5/{project_id}/connection-monitors/{connection_monitor_id} | vpn:connectionMonitors:delete | ``-``        | Y           | Y                  |
 +------------------------------------------+---------------------------------------------------------------------+-------------------------------+--------------+-------------+--------------------+

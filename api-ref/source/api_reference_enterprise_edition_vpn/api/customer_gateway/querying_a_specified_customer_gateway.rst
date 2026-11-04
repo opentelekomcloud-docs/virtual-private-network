@@ -134,8 +134,8 @@ Response
               "id_type": "ip",
               "id_value": "10.***.***.21",
               "created_at": "2025-08-13T02:38:05.09035Z",
-              "updated_at": "2025-08-13T02:38:05.09035Z"
-              "tags": [],
+              "updated_at": "2025-08-13T02:38:05.09035Z",
+              "tags": []
               "route_mode": "bgp",
               "ip": "10.***.***.21"
           },

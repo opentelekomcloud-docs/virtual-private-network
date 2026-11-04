@@ -15,8 +15,6 @@ URI
 
 GET /v2.0/vpn/ipsec-site-connections
 
-.. _en-us_topic_0000001854089257__en-us_topic_0000001541296734_section13538688:
-
 Request
 -------
 

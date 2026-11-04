@@ -8,13 +8,13 @@ Customer Gateway
 +---------------------------------------+-----------------------------------------------------------------+-----------------------------+--------------+-------------+--------------------+
 | Permission                            | API                                                             | Action                      | Dependencies | IAM Project | Enterprise Project |
 +=======================================+=================================================================+=============================+==============+=============+====================+
-| Creating a customer gateway           | POST /v5/{project_id}/customer-gateways                         | vpn:customerGateways:create | ``-``        | Y           | x                  |
+| Creating a customer gateway           | POST /v5/{project_id}/customer-gateways                         | vpn:customerGateways:create | ``-``        | Y           | Y                  |
 +---------------------------------------+-----------------------------------------------------------------+-----------------------------+--------------+-------------+--------------------+
-| Querying a specified customer gateway | GET /v5/{project_id}/customer-gateways/{customer_gateway_id}    | vpn:customerGateways:get    | ``-``        | Y           | x                  |
+| Querying a specified customer gateway | GET /v5/{project_id}/customer-gateways/{customer_gateway_id}    | vpn:customerGateways:get    | ``-``        | Y           | Y                  |
 +---------------------------------------+-----------------------------------------------------------------+-----------------------------+--------------+-------------+--------------------+
-| Querying the customer gateway list    | GET /v5/{project_id}/customer-gateways                          | vpn:customerGateways:list   | ``-``        | Y           | x                  |
+| Querying the customer gateway list    | GET /v5/{project_id}/customer-gateways                          | vpn:customerGateways:list   | ``-``        | Y           | Y                  |
 +---------------------------------------+-----------------------------------------------------------------+-----------------------------+--------------+-------------+--------------------+
-| Updating a customer gateway           | PUT /v5/{project_id}/customer-gateways/{customer_gateway_id}    | vpn:customerGateways:update | ``-``        | Y           | x                  |
+| Updating a customer gateway           | PUT /v5/{project_id}/customer-gateways/{customer_gateway_id}    | vpn:customerGateways:update | ``-``        | Y           | Y                  |
 +---------------------------------------+-----------------------------------------------------------------+-----------------------------+--------------+-------------+--------------------+
-| Deleting a customer gateway           | DELETE /v5/{project_id}/customer-gateways/{customer_gateway_id} | vpn:customerGateways:delete | ``-``        | Y           | x                  |
+| Deleting a customer gateway           | DELETE /v5/{project_id}/customer-gateways/{customer_gateway_id} | vpn:customerGateways:delete | ``-``        | Y           | Y                  |
 +---------------------------------------+-----------------------------------------------------------------+-----------------------------+--------------+-------------+--------------------+

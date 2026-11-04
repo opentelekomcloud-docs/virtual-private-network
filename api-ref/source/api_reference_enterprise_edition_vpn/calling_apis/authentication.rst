@@ -58,8 +58,6 @@ After obtaining a token, add the **X-Auth-Token** field specifying the token to 
 .. code-block:: text
 
    POST https://iam.eu-de.otc.t-systems.com/v3/auth/tokens
-
-
    Content-Type: application/json
    X-Auth-Token: ABCDEFG....
 
