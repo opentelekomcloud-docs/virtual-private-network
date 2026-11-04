@@ -67,22 +67,9 @@ Procedure
    -  You can select multiple tags to search for VPN resources. If you select multiple tags, the relationship between them is AND.
    -  You can use tags together with other types of filter criteria. The relationship between them is AND.
 
-**Searching for Classic VPN gateways by tag**
-
-#. Log in to the management console.
-#. Click |image7| in the upper left corner and select the desired region and project.
-#. Click |image8| in the upper left corner, and choose **Network** > **Virtual Private Network**.
-#. In the navigation pane on the left, choose **Virtual Private Network** > **Classic**.
-#. Click **Search by Tag** in the upper right corner, select the desired tag key and value, and click **Search**.
-
-   -  You can only select existing keys and values from the drop-down list.
-   -  You can select a maximum of 20 tags to search for VPN resources.
-
 .. |image1| image:: /_static/images/en-us_image_0000001628070572.png
 .. |image2| image:: /_static/images/en-us_image_0000002394353329.png
 .. |image3| image:: /_static/images/en-us_image_0000001628070572.png
 .. |image4| image:: /_static/images/en-us_image_0000002394353329.png
 .. |image5| image:: /_static/images/en-us_image_0000001628070572.png
 .. |image6| image:: /_static/images/en-us_image_0000002394353329.png
-.. |image7| image:: /_static/images/en-us_image_0000001628070572.png
-.. |image8| image:: /_static/images/en-us_image_0000002394353329.png

@@ -11,7 +11,7 @@ Overview
 -  :ref:`Product Specifications <vpn_01_0036>`
 -  :ref:`Quotas and Limitations <vpn_01_0005>`
 -  :ref:`Reference Standards and Protocols <vpn_01_0006>`
--  :ref:`Differences between Enterprise Edition VPN and Classic VPN <vpn_01_0033>`
+-  :ref:`Differences between S2C Enterprise Edition VPN and Classic VPN <vpn_01_0033>`
 -  :ref:`Security <vpn_01_0024>`
 -  :ref:`IAM-based Permissions Management <vpn_01_0011>`
 -  :ref:`Basic Concepts <vpn_01_0034>`
@@ -26,7 +26,7 @@ Overview
    product_specifications
    quotas_and_limitations
    reference_standards_and_protocols
-   differences_between_enterprise_edition_vpn_and_classic_vpn
+   differences_between_s2c_enterprise_edition_vpn_and_classic_vpn
    security/index
    iam-based_permissions_management
    basic_concepts/index

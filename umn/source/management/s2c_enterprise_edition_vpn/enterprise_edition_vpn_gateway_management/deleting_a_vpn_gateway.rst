@@ -17,9 +17,7 @@ Notes and Constraints
 
 -  If the VPN gateway has connections, the connections will also be deleted.
 
--  An EIP bound to a VPN gateway will be released when the VPN gateway is deleted.
-
-   To retain such a pay-per-use EIP, unbind it before deleting the VPN gateway. For details about how to unbind an EIP, see :ref:`Unbinding an EIP from a VPN Gateway <vpn_04_0807>`.
+-  To retain such a pay-per-use EIP, unbind it before deleting the VPN gateway. For details about how to unbind an EIP, see :ref:`Unbinding an EIP from a VPN Gateway <vpn_04_0807>`.
 
 -  If a VPN gateway is bound to an EIP that shares bandwidth with other EIPs, the EIP will be released and the shared bandwidth will be reserved when the VPN gateway is deleted.
 

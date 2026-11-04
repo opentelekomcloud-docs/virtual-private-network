@@ -26,7 +26,7 @@ Procedure
 
 #. In the navigation pane on the left, choose **Virtual Private Network** > **Enterprise - VPN Gateways**.
 
-#. On the **S2C VPN Gateways** page, click **Unbind EIP** or choose **More** > **Unbind EIP** in the **Operation** column of the target VPN gateway.
+#. On the **S2C VPN Gateways** page, choose **More** > **Unbind EIP** in the **Operation** column of the target VPN gateway.
 
    -  If the VPN gateway uses the active-active mode, the active EIP and active EIP 2 can be unbound from the VPN gateway.
    -  If the VPN gateway uses the active/standby mode, the active EIP and standby EIP can be unbound from the VPN gateway.

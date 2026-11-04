@@ -5,7 +5,7 @@
 Classic VPN Management
 ======================
 
--  :ref:`Creating a VPN <en-us_topic_0035391393>`
+-  :ref:`Creating a VPN <vpn_04_0608>`
 -  :ref:`Viewing Created VPNs <vpn_04_0002>`
 -  :ref:`Modifying a Created VPN <vpn_04_0003>`
 -  :ref:`Deleting a VPN <vpn_04_0004>`

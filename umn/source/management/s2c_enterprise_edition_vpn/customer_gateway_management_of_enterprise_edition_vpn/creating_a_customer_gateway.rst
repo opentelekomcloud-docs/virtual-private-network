@@ -45,6 +45,10 @@ Procedure
       | Identifier               | IP address used by the customer gateway to communicate with the VPN gateway. The value must be a static address.                      | 1.2.3.4               |
       |                          |                                                                                                                                       |                       |
       |                          | Ensure that UDP port 4500 is permitted in a firewall rule on the customer gateway in your on-premises data center or private network. |                       |
+      |                          |                                                                                                                                       |                       |
+      |                          | .. note::                                                                                                                             |                       |
+      |                          |                                                                                                                                       |                       |
+      |                          |    When **Identifier** is set to **IP Address**, the gateway IP address cannot start with 0, for example, 0.\ *xx*.\ *xx*.\ *xx*.     |                       |
       +--------------------------+---------------------------------------------------------------------------------------------------------------------------------------+-----------------------+
       | BGP ASN                  | Enter the ASN of your on-premises data center or private network.                                                                     | 65000                 |
       |                          |                                                                                                                                       |                       |

@@ -33,21 +33,8 @@ Enterprise Edition VPN has the following advantages:
    -  VPN can be used together with the enterprise router service, allowing enterprises to build more flexible cloud-based networks.
    -  Private VPN gateways are supported to encrypt traffic transmitted over Direct Connect connections, improving data transmission security.
    -  In S2C VPN, you can flexibly enable or disable branch interconnection to implement interconnection or isolation between customer gateways, respectively.
-
-Classic VPN has the following advantages:
-
--  **High security**
-
-   Dedicated devices are used to encrypt data through IKE and IPsec protocols, offering carrier-class reliability and ensuring stable VPN connections from perspectives of hardware, software, and links.
-
--  **Seamless scaling**
-
-   You can connect your on-premises data center to your VPC to quickly extend services at the local data center to the cloud, forming a hybrid cloud.
-
--  **Cost-effectiveness**
-
-   IPsec connections over the Internet provide a cost-effective alternative to Direct Connect.
-
--  **Easy to use**
-
-   A VPN connection can be created in a few simple steps on the VPN device in an on-premises data center and on the VPN console, and is ready to use immediately after being created.
+   -  Self-service VPN gateway upgrade is supported, allowing you to upgrade VPN gateways as required.
+   -  VPN supports custom route table configurations in VPCs based on service requirements, improving network availability and flexibility.
+   -  S2C VPN allows you to view the CIDR blocks negotiated by IPsec SAs and traffic monitoring statistics, facilitating fault locating.
+   -  S2C VPN allows users to download the peer device's configuration file for configuration comparison.
+   -  EIPs with shared bandwidth are supported, improving network resource utilization and flexibility.

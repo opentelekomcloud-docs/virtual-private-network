@@ -2,8 +2,8 @@
 
 .. _vpn_01_0033:
 
-Differences between Enterprise Edition VPN and Classic VPN
-==========================================================
+Differences between S2C Enterprise Edition VPN and Classic VPN
+==============================================================
 
 .. table:: **Table 1** Differences between Enterprise Edition VPN and Classic VPN
 
